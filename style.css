@@ -170,6 +170,10 @@ div.communicate ul li {
     padding: 0 30px;
 }
 
+.communicate ul {
+    padding-left: 0;
+}
+
 .communicate ul li img {
     width: 50px;
     height: 50px;
@@ -227,10 +231,6 @@ footer ul li {
     .dark {
         margin-left: 0;
         margin-top: 20px;
-    }
-
-    .communicate ul {
-        padding-left: 0;
     }
 }
 
