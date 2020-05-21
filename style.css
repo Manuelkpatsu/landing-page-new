@@ -1,0 +1,241 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&family=Poppins:wght@600&display=swap');
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    color: hsl(192, 100%, 9%);
+    font-family: 'Open Sans', sans-serif;
+    margin: 0;
+}
+
+h1, h2, h3, h4 {
+    font-family: 'Poppins', sans-serif;
+}
+
+img {
+    max-width: 100%;
+}
+
+.btn {
+    background-color: #6E73F9;
+    padding: 10px 15px;
+    color: #fff;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: 400;
+    border-radius: 3px;
+    border: none;
+    transition: 0.3s;
+}
+
+.btn-lg {
+    padding: 10px 25px;
+}
+
+.btn-primary {
+    border-radius: 3px;
+    font-weight: 400;
+    cursor: pointer;
+    color: #fff;
+    font-size: 16px;
+    border: 2px solid #fff;
+    color: #fff;
+    background-color: #6E73F9;
+    transition: 0.3s;
+}
+
+.container {
+    padding: 0 20px;
+    margin: 0 auto;
+    max-width: 100%;
+    width: 1000px;
+}
+
+.center {
+    text-align: center;
+}
+
+.border {
+    border: 2px solid #A5EDD9;
+    border-radius: 3px;
+    margin-top: 60px;
+}
+
+.border,
+.bottom {
+    margin-bottom: 60px;
+}
+
+.flex {
+    display: flex;
+    align-items: center;
+    margin-bottom: 60px;
+}
+
+header {
+    padding-top: 20px;
+}
+
+nav {
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 40px!important;
+}
+
+nav .nav-items ul li {
+    display: inline;
+    margin-right: 20px;
+    cursor: pointer;
+}
+
+nav .nav-items ul li:hover,
+footer ul li:hover {
+    color: #6E73F9;
+}
+
+.header-h1 {
+    line-height: 1;
+    font-size: 35px;
+}
+
+span.red {
+    color: rgb(231, 161, 177);
+    font-style: italic;
+    font-size: 16px;
+}
+
+ul {
+    list-style-type: none;
+}
+
+.check.flex {
+    display: flex;
+    align-items: flex-start;
+}
+
+.check-info {
+    padding-left: 40px;
+}
+
+h4 i {
+    color: #6E73F9;
+    padding-right: 10px;
+}
+
+.text-icon {
+    padding-left: 10px;
+}
+
+.check-info .users {
+    background-color: #FAFAFF;
+    padding: 10px;
+    margin-bottom: 20px;
+}
+
+.check-info .users h4 {
+    margin-top: 0;
+}
+
+.sync,
+.working,
+.box {
+    flex: 1;
+}
+
+.working.first {
+    padding-right: 200px;
+}
+
+.box {
+    padding: 20px;
+    border-radius: 5px;
+    color: #fff;
+    height: 250px;
+}
+
+.mauve {
+    background-color: #6E73F9;
+    margin-right: 10px;
+}
+
+.dark {
+    margin-left: 10px;
+    background-color: #3F4A5E;
+}
+
+div.communicate ul li {
+    display: inline-block;
+    padding: 0 30px;
+}
+
+.communicate ul li img {
+    width: 50px;
+    height: 50px;
+}
+
+.contact {
+    background-color: #6E73F9;
+    padding: 40px 0;
+    color: #fff;
+}
+
+.contact h2 {
+    margin-top: 0;
+}
+
+.float-right {
+    float: right;
+}
+
+footer {
+    padding: 30px 0;
+}
+
+footer ul {
+    padding: 0;
+}
+
+footer ul li {
+    display: inline;
+    padding-right: 20px;
+    cursor: pointer;
+}
+
+@media screen and (max-width: 768px) {
+    body {
+        text-align: center;
+    }
+
+    .flex {
+        flex-direction: column;
+    }
+
+    .check-info {
+        padding-left: 0;
+    }
+
+    .working.first {
+        padding-right: 0;
+    }
+
+    .mauve {
+        margin-right: 0;
+    }
+
+    .dark {
+        margin-left: 0;
+        margin-top: 20px;
+    }
+
+    .communicate ul {
+        padding-left: 0;
+    }
+}
+
+@media screen and (max-width: 428px) {
+    .nav-items li button {
+        margin-top: 10px;
+    }
+}
